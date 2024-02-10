@@ -1,0 +1,188 @@
+html{
+    width: 1440px;
+}
+
+
+body{
+    margin-top: 20px;
+    min-height: 100vh;
+    font-family: red Hat Display;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+
+
+}
+
+
+.container{
+    width: 480px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 20px 15px hsla(276, 24%, 57%, 0.158)
+}
+
+.photo img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 480px;
+}
+
+.text-container{
+    padding: 50px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title span{
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+.details{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 330px;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+
+.plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 97%);
+    width: 380px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.plan-container img{
+    width: 55px;
+    padding-right: 25px;
+}
+
+.plan{
+    padding-right: 90px;
+}
+
+.plan__category span{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.plan__value{
+    padding-top: 10px;
+}
+
+.plan__value span{
+    padding-top: 5px;
+    font-size: 18px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+
+.change a{
+    font-weight: 700;
+}
+
+.change a:hover{
+    text-decoration: none;
+    color: hsl(245, 65%, 64%);
+}
+
+.payment-button{
+    padding-top: 40px;
+}
+
+button{
+    width: 380px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none;
+    box-shadow: 1px 20px 15px hsl(245, 75%, 90%);
+}
+
+button:hover{
+    background-color: hsl(245, 65%, 64%);
+    cursor: pointer;
+}
+
+.cancel{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.cancel span{
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel span:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+@media (max-width:567px){
+    .container{
+        width: 375px;
+    }
+
+    .photo img{
+        width: 375px;
+    }
+
+    .title span{
+        font-size: 1.6rem;
+    }
+
+    .details{
+        width: 290px;
+    }
+
+    .plan-container{
+        width: 320px;
+    }
+
+    .plan{
+        padding-right: 50px;
+    }
+
+    .plan-container img{
+        width: 55px;
+        padding-right: 25px;
+    }
+
+    .plan-container img{
+        padding-right: 20px;
+    }
+
+    button{
+        width: 320px;
+    }
+}
+
+
+.attribution{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
